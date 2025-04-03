@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau Dashboard Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Tableaustyles.css"> <!-- Corrected path -->
+    <!-- Inline CSS for the generator and CSS links -->
+    <style>
+        .generator-link {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .generator-link a {
+            color: #ef233c;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.2em;
+            text-decoration: underline;
+        }
+
+        .generator-link a:hover {
+            color: #2b2d42;
+        }
+
+        .generator-link span {
+            color: #333333;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation back to professional pages -->
+    <div class="nav">
+        <h3>Navigation</h3>
+        <p><a href="index.html">Home</a> | <a href="education.html">Education</a> | <a href="experience.html">Experience</a> | <a href="skills.html">Skills</a> | <a href="contact.html">Contact</a></p>
+    </div>
+
+    <!-- Div 1: Introduction with on-page anchor -->
+    <div class="intro">
+        <h1>Lebron James</h1>
+        <p>A page for anyone who loves to glaze Lebron. It consists of Lebron blocking Igoudala in game 7 of the 2016 NBA Finals, my favorite Lebron moments, a picture of the king, a player comparison graph, and a link to an NBA name generator.</p>
+        <p>Jump to the <a href="#tableau-section">Tableau Dashboard</a>.</p>
+    </div>
+
+    <!-- Div 2: Embedded YouTube Video and Lists -->
+    <div class="media">
+        <h2>Basketball Highlights</h2>
+        <p>Iconic Block on Splitter in Playoffs:</p>
+        <!-- Embedded YouTube Video -->
+<iframe width="659" height="369" src="https://www.youtube.com/embed/49KhBQlWUQU" title="LeBron blocks Tiago Splitter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- Ordered list with an embedded unordered list -->
+        <h3>Lebrons Greatest Moments</h3>
+        <ol>
+            <li>Lebron bringing the Cavs Back from down 3-1 in 2016</li>
+            <li>Lebron winning his fourth ring this time as a Laker</li>
+            <li>Lebron breaking the record for all time points scored</li>
+        </ol>
+    </div>
+
+    <!-- Div 3: Image and Tableau Dashboard -->
+    <div class="content">
+        <!-- Custom Image -->
+        <h2>Lebron James, The Chosen One</h2>
+        <p>King James in his Miami Heat threads</p>
+        <img src="https://cdn.wallpapersafari.com/86/92/XRKlHg.jpg" alt="Basketball Court" width="500">
+
+        <!-- Tableau Dashboard with Anchor -->
+        <h2 id="tableau-section">NBA Player Stats Comparison Dashboard</h2>
+        <p>Change the Players to compare stats!</p>
+        <div class='tableauPlaceholder' id='viz1743632944631' style='position: relative'><noscript><a href='#'><img alt='NBA PLAYER STATS  ' src='https://public.tableau.com/static/images/NB/NBASTATS_17436322585190/NBAPLAYERSTATS/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NBASTATS_17436322585190/NBAPLAYERSTATS' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/NB/NBASTATS_17436322585190/NBAPLAYERSTATS/1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1743632944631');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+
+   <!-- Links to the Random NBA Player Generator and Tableaustyles.css -->
+    <div class="generator-link">
+        <a href="NBAnamegenerator.html">Check out my Random NBA Player Generator!</a>
+        <span>|</span>
+        <a href="Tableaustyles.css">View my Tableau Styles CSS</a>
+    </div>
+</body>
+</html>
